@@ -1,0 +1,111 @@
+Fichier LISEZMOI.txt du jeu Tron (Light cycle)
+Fait par: Guillaume Hamel-Gagné
+Fait pour: Travail Finale Programmation structuré.
+Cégep de Drummondville.
+Je ne possède aucun droit sur les
+background du jeu ou Tron ce jeu
+n'est qu'un travail finale et ne sera
+pas commercialisé. Ce jeu est inpirer
+du mode de jeu Light cycle du film
+Tron sortie en 1982.
+
+Les backgrounds on été prit
+sur ce lien: http://imgkid.com/tron-grid-background.shtml
+---------------------------------------------------------------------------
+
+INSTALLATION WINDOWS
+1.
+Copiez le dossier du jeu sur votre ordinateur où bon vous semble.
+2.
+INSTALLER python3.4 (www.python.org)
+3. 
+Ouvrer "Panneau de configuration"
+4. 
+Ouvrer "Système et sécurité"
+5. 
+Ouvrer "Système"
+6. 
+Ouvrer "Paramètres systèmes avancés" un droit adminitrateur est nécessaire
+7. 
+Cliquer sur "Variables d'environnement" dans variables systèmes ajouter à "Path"
+le chemin de python normalement : C:\python34\
+ne pas oublier d'entourer le chemin par des ";" si dernier chemin pas mettre de ";" 
+8. 
+Ouvrez une fenêtre de commande DOS dans le dossier scripts
+de votre dossier python.
+Faite la commande: "python pip.exe install wheel"
+9.
+Faite ensuite la commande (utiliser soit pygame32 ou pygame34 dépendant
+si python est 32bits ou 64bits simplement essayer l'autre si python
+n'est pas comme le système d'exploitation):
+python wheel.exe install **Fichier
+
+**Ajouter ici le chemin d'accès du fichier pygame(32-34).whl
+
+UTILISATION WINDOWS
+
+Double clic sur 'Tron.py'
+
+---------------------------------------------------------------------------
+
+INSTALLATION UNIX
+1. Copiez le dossier du jeu sur votre ordinateur où bon vous semble.
+2. Ouvrez un boite de commande bash dans le dossier 'Travail_Finale'.
+3. Entrer cette commande : '. ./InstallationUnix'
+4. Un mot de passe vous sera demander afin de poursuivre l'installation.
+
+UTILISATION UNIX
+Afin de lancer le programme sur 
+une boite de commande shell 
+situé dans le dossier
+du jeu. Faite la commande: '. ./Lancer\ Tron'
+
+---------------------------------------------------------------------------
+
+INSTRUCTION DU JEU
+
+JOUEUR 1
+
+Direction:
+Haut: 	Flèche Haut
+Bas: 	Flèche Bas
+Gauche: Flèche Gauche
+Droite: Flèche Droite
+
+Action:
+Rétrécir: NUM PAD 0
+
+JOUEUR 2
+
+Direction:
+Haut: 	'W'
+Bas: 	'S'
+Gauche: 'A'
+Droite: 'D'
+
+Action:
+Rétrécir: 'SHIFT Gauche'
+---------------------------------------------------------------------------
+Info "GamePlay": 
+L'action de rétrécir n'est limité que
+par une certaine longueur. Alors c'est votre
+choix de l'utiliser ou non.
+---------------------------------------------------------------------------
+Le
+Fichier de configuration template:
+
+couleur possible: (orange, cyan, magenta, vert)
+
+couleurJ1=*couleur*
+couleurJ2=*couleur*
+multi=(true or false)
+
+Si le programme ne trouve pas ou trouve
+un élément supplémentaire le fichier sera
+avec le fichier config dans le dossier du jeu.
+Si vous désirer changer les paramètre par défaut
+modifier le fichier là. SEULEMENT SUR LINUX
+Sur windows cela n'est pas possible par
+le fichier config. Alors si le fichier est
+effacé sur Linux vous devez retélécharger le jeu.
+Donc avant de le modifier faite un backup.
