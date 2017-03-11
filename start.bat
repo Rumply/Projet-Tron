@@ -1,2 +1,2 @@
-c:\python34\python.exe C:\Users\Guillaume\OneDrive\Documents\Travail_Avancer\Tron.py
+c:\python34\python.exe Tron.py
 pause
