@@ -1,5 +1,6 @@
-Ceci est le projet de 2ème session en programation.
+Ceci est le projet de 2Ã¨me session en programation.
 Il s'agit d'un jeu de type Tron Light cycle
 
-Créateur: Guillaume Hamel-Gagné
-Petite amélioration: Olivier Bombardier
+CrÃ©ateur: Guillaume Hamel-GagnÃ©  
+  
+Petite amÃ©lioration: Olivier Bombardier
