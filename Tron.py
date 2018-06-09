@@ -120,7 +120,7 @@ def pause():
     appui sur 'P' ou 'Q'."""
     paused = True
     message_to_screen("Pause",
-                      couleur["blanc"], -125, "large")
+                      couleur["blanc"], -125, size="large")
     message_to_screen("Appuyer sur 'P' afin de continuer ou 'Q' pour quitter.", 
                       couleur["blanc"], 50)
     pygame.display.update()
